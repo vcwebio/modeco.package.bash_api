@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="package.api - ModEco"
+export CONTECO_DESCRIPTION="The Modeco bash API module package."
+
+export CONTECO_TYPE="package"
+export CONTECO_NAME="bash_api"
+export CONTECO_TAG="5.0.9"
+
+
+export CONTECO_BASE="image.wrapper"
+export CONTECO_BUILD="modeco"
