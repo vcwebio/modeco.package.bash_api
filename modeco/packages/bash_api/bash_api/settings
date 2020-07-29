@@ -7,7 +7,7 @@ export CONTECO_DC_GLOBAL_STACKNAMES="bash_api"
 export CONTECO_DC_GLOBAL_BOOTSTACKS="bash_api"
 export CONTECO_DC_GLOBAL_RUNSTACKS="bash_api"
 export CONTECO_DC_GLOBAL_VOLUME_LIST="${CONTECO_STACKPREFIX}_bash_api_volume,${CONTECO_STACKPREFIX}_bash_data_volume"
-export CONTECO_DC_GLOBAL_VOLUME_INITIALISED="${CONTECO_STACKPREFIX}_bash_api_volume:/conteco/bin/bash"
+export CONTECO_DC_GLOBAL_VOLUME_INITIALISED="${CONTECO_STACKPREFIX}_bash_api_volume:/conteco/bin/bash,${CONTECO_STACKPREFIX}_bash_data_volume:/conteco/pwd"
 # END CONFIGURATION
 
 # START OTHER VARIABLES

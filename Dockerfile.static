@@ -27,7 +27,7 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.tag="5.0.9" \
       io.vcweb.base="image.wrapper" \
       io.vcweb.build="modeco" \
-      io.vcweb.label="package.api - ModEco" \
-      io.vcweb.description="The Modeco bash API module package." \
+      io.vcweb.label="package.bash_api - ModEco" \
+      io.vcweb.description="The Modeco Bash API module package." \
       io.vcweb.docker.cmd.help="docker run vcwebio/modeco.package.bash_api --help"
 ##### END modeco/Dockerfile/env-labels-footer #####
